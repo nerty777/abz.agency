@@ -1,6 +1,6 @@
 Использовал: <br>
 
-1. react, redux<br>
+1. React, Redux<br>
 2. линтинг Airbnb;<br>
 3. правила a11y;<br>
 4. подход mobile-first;<br>
@@ -11,7 +11,7 @@
 9. препроцессор SCSS<br>
 10. единицы измерения rem и breakpoints через mixin scss<br>
 11. оптимизированы изображения, webp для растровых картинок фона<br>
-12. прописанны основные meta теги в index.html<br>
+12. прописаны основные meta теги в index.html<br>
 13. дополнительные npm пакеты:<br>
     <a href="https://www.npmjs.com/package/aos">aos</a> small library to animate
     elements on your page as you scroll<br>
