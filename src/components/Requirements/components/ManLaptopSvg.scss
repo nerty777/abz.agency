@@ -1,0 +1,108 @@
+.man-laptop-svg {
+  width: rem(257);
+  height: rem(216);
+  margin: 0 auto rem(28) auto;
+  @include for-size(tablet) {
+    display: none;
+  }
+  @include for-size(desktop) {
+    display: block;
+    width: rem(429);
+    height: rem(361);
+    order: 2;
+    margin: rem(15) 0 0 0;
+  }
+  &__apple {
+    display: none;
+  }
+  &:hover .man-laptop-svg__apple,
+  &:focus .man-laptop-svg__apple {
+    display: block;
+  }
+  &__cogwheel {
+    transform-origin: 80px 68px;
+    animation: spin 5s linear 0s infinite;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.stk0 {
+  fill: url(#SVGIDS_1_);
+}
+.stk2 {
+  fill: url(#SVGIDS_2_);
+}
+.stk3 {
+  fill: #191919;
+}
+.stk4 {
+  fill: #ce3e3e;
+}
+.stk5 {
+  fill: #ff7d7d;
+}
+.stk6 {
+  fill: none;
+  stroke: #1d1d1b;
+  stroke-width: 2;
+}
+.stk7 {
+  fill: #ff6252;
+}
+.stk8 {
+  fill: #afafaf;
+}
+.stk9 {
+  fill: #d8d8d8;
+}
+.stk10 {
+  fill: #ffffff;
+}
+.stk11 {
+  opacity: 0.57;
+  fill: #f5f5f5;
+  enable-background: new;
+}
+.stk12 {
+  fill: url(#SVGIDS_3_);
+}
+.stk13 {
+  fill: url(#SVGIDS_4_);
+}
+.stk14 {
+  fill: url(#SVGIDS_5_);
+}
+.stk15 {
+  fill: #ffffff;
+  stroke: #141414;
+  stroke-width: 3;
+}
+.stk16 {
+  fill: #ffffff;
+  stroke: #141414;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.stk17 {
+  fill: none;
+  stroke: #141414;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.stk18 {
+  fill: url(#SVGIDS_6_);
+}
+.stk19 {
+  fill: url(#SVGIDS_7_);
+}
+.stk20 {
+  fill: url(#SVGIDS_8_);
+}

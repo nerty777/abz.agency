@@ -1,0 +1,55 @@
+.backdrop {
+  position: fixed;
+  min-width: 100%;
+  min-height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  background-color: rgba(22, 12, 13, 0.32);
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: rem(250);
+  min-height: 100vh;
+  padding-left: rem(15);
+  opacity: 1;
+  background-color: $light-color;
+  &__img {
+    border-radius: 50%;
+    margin-top: rem(30);
+    margin-bottom: rem(17);
+  }
+  &__name {
+    font-size: rem(20);
+  }
+  &__email {
+    color: #8d8c8c;
+    font-size: rem(13);
+    margin-bottom: rem(20);
+  }
+  &__nav:before {
+    content: '';
+    display: block;
+    border: 1px solid #e1e1e1;
+    width: calc(100% + 15px);
+    margin-left: rem(-15);
+  }
+}
+
+.mobile-nav {
+  list-style: none;
+  padding-top: rem(30);
+  &__item {
+    margin-bottom: rem(21);
+    &:last-child {
+      margin-bottom: 0px;
+    }
+  }
+  &__link {
+    text-decoration: none;
+    color: #000000;
+  }
+}

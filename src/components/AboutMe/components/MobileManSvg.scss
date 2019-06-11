@@ -1,0 +1,153 @@
+.mobile-man-svg {
+  display: block;
+  margin: 0 auto rem(25) auto;
+  width: rem(219);
+  height: rem(216);
+  @include for-size(tablet) {
+    margin: 0;
+  }
+  @include for-size(desktop) {
+    width: rem(289);
+    height: rem(285);
+  }
+}
+
+.mobile-man-svg__card {
+  transform: translate(10px, 120px);
+}
+
+.mobile-man-svg:hover .mobile-man-svg__card {
+  animation: 1.5s mobile-man__card ease-in-out;
+}
+
+.mobile-man-svg:hover .mobile-man-svg__hand {
+  animation: 1.5s mobile-man__hand ease-in-out;
+}
+
+@keyframes mobile-man__card {
+  0% {
+    transform: translate(10px, 120px);
+  }
+
+  50% {
+    transform: translate(10px, 90px);
+  }
+  100% {
+    transform: translate(10px, 120px);
+  }
+}
+
+@keyframes mobile-man__hand {
+  0% {
+    transform: translate(0px, 0px);
+  }
+
+  50% {
+    transform: translate(0px, -10px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+.st0 {
+  fill: url(#SVGID_1_);
+}
+.st1 {
+  fill: url(#SVGID_2_);
+}
+.st2 {
+  fill: #C4C4C4;
+}
+.st3 {
+  fill: #9b9b9a;
+}
+.st4 {
+  fill: #858585;
+}
+.st5 {
+  fill: #ebebeb;
+}
+.st6 {
+  fill: #ffffff;
+}
+.st7 {
+  fill: url(#SVGID_3_);
+}
+.st8 {
+  fill: url(#SVGID_4_);
+}
+.st9 {
+  fill: url(#SVGID_5_);
+}
+.st10 {
+  fill: url(#SVGID_6_);
+}
+.st11 {
+  fill: url(#SVGID_7_);
+}
+.st12 {
+  fill: url(#SVGID_8_);
+}
+.st13 {
+  fill: #fadd74;
+}
+.st14 {
+  fill: #e6332a;
+}
+.st15 {
+  fill: #34525c;
+}
+.st16 {
+  fill: url(#SVGID_9_);
+}
+.st17 {
+  fill: url(#SVGID_10_);
+}
+.st18 {
+  fill: url(#SVGID_11_);
+}
+.st19 {
+  fill: url(#SVGID_12_);
+}
+.st20 {
+  fill: url(#SVGID_13_);
+}
+.st21 {
+  fill: url(#SVGID_14_);
+}
+.st22 {
+  fill: #ffcb9c;
+}
+.st23 {
+  fill: url(#SVGID_15_);
+}
+.st24 {
+  fill: url(#SVGID_16_);
+}
+.st25 {
+  fill: url(#SVGID_17_);
+}
+.st26 {
+  fill: url(#SVGID_18_);
+}
+.st27 {
+  fill: url(#SVGID_19_);
+}
+.st28 {
+  fill: url(#SVGID_20_);
+}
+.st29 {
+  fill: #191919;
+}
+.st30 {
+  fill: url(#SVGID_21_);
+}
+.st31 {
+  fill: none;
+  stroke: #1d1d1b;
+  stroke-width: 2;
+}
+.st32 {
+  fill: #ff6252;
+}

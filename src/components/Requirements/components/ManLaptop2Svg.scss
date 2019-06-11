@@ -1,0 +1,100 @@
+.man-laptop-svg2 {
+  display: none;
+  @include for-size(tablet) {
+    display: block;
+    order: 2;
+    width: 343px;
+    height: 407px;
+    margin: 0;
+  }
+  @include for-size(desktop) {
+    display: none;
+  }
+  &__apple2 {
+    display: none;
+  }
+  &:hover .man-laptop-svg2__apple2,
+  &:focus .man-laptop-svg2__apple2 {
+    display: block;
+  }
+  &__cogwheel2 {
+    transform-origin: 75px 62px;
+    animation: spin 5s linear 0s infinite;
+  }
+}
+
+.stm0 {
+  fill: url(#SVGIDM_1_);
+}
+.stm1 {
+  fill: #ffcb9c;
+}
+.stm2 {
+  fill: url(#SVGIDM_2_);
+}
+.stm3 {
+  fill: #191919;
+}
+.stm4 {
+  fill: #ce3e3e;
+}
+.stm5 {
+  fill: #ff7d7d;
+}
+.stm6 {
+  fill: none;
+  stroke: #1d1d1b;
+  stroke-width: 2;
+}
+.stm7 {
+  fill: #ff6252;
+}
+.stm8 {
+  fill: #afafaf;
+}
+.stm9 {
+  fill: #d8d8d8;
+}
+.stm10 {
+  fill: #ffffff;
+}
+.stm11 {
+  opacity: 0.57;
+  fill: #f5f5f5;
+  enable-background: new;
+}
+.stm12 {
+  fill: url(#SVGIDM_3_);
+}
+.stm13 {
+  fill: url(#SVGIDM_4_);
+}
+.stm14 {
+  fill: url(#SVGIDM_5_);
+}
+.stm15 {
+  fill: #ffffff;
+  stroke: #141414;
+  stroke-width: 3;
+}
+.stm16 {
+  fill: #ffffff;
+  stroke: #141414;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.stm17 {
+  fill: none;
+  stroke: #141414;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.stm18 {
+  fill: url(#SVGIDM_7_);
+}
+.stm19 {
+  fill: url(#SVGIDM_7_);
+}
+.stm20 {
+  fill: url(#SVGIDM_8_);
+}

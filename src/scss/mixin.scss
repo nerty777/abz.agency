@@ -1,0 +1,20 @@
+@mixin for-size($size) {
+  @if $size == desktop2k {
+    @media (min-width: $desktop2k) {
+      @content;
+    }
+  } @else if $size == desktop {
+    @media (min-width: $desktop) {
+      @content;
+    }
+  } @else if $size == tablet {
+    @media (min-width: $tablet) {
+      @content;
+    }
+  }
+}
+
+@function rem($size) {
+  $remSize: $size / 16;
+  @return #{$remSize}rem;
+}

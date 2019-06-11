@@ -1,0 +1,82 @@
+.desktop-menu {
+  display: none;
+  @include for-size(desktop) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__nav {
+    @include for-size(desktop) {
+      margin-right: rem(69);
+    }
+    @include for-size(desktop2k) {
+      margin-right: rem(173);
+    }
+  }
+  &__list {
+    @include for-size(desktop) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: rem(455);
+    }
+  }
+  &__link {
+    @include for-size(desktop) {
+      text-decoration: none;
+      color: #000000;
+      line-height: 2.5;
+    }
+  }
+}
+
+.sign-in {
+  @include for-size(desktop) {
+    display: flex;
+  }
+  &__name {
+    @include for-size(desktop) {
+      font-size: rem(14);
+      text-align: right;
+    }
+  }
+  &__email {
+    @include for-size(desktop) {
+      color: #8d8c8c;
+      font-size: rem(12);
+      text-align: right;
+    }
+  }
+  &__photo {
+    @include for-size(desktop) {
+      width: rem(40);
+      height: rem(40);
+      border-radius: 50%;
+      margin-right: rem(14);
+    }
+  }
+  &__icon {
+    fill: #283593;
+    &:hover,
+    &:focus {
+      fill: #2637bb;
+      cursor: pointer;
+    }
+    @include for-size(desktop) {
+      width: rem(24);
+      height: rem(20);
+    }
+  }
+}
+
+.wrapper-name-email {
+  @include for-size(desktop) {
+    margin-right: rem(15);
+  }
+}
+
+.wrapper-photo-icon {
+  @include for-size(desktop) {
+    display: flex;
+    align-items: center;
+  }
+}

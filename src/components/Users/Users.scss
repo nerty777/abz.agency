@@ -1,0 +1,167 @@
+.users {
+  position: relative;
+  padding: rem(64) rem(15) rem(5) rem(15);
+  @include for-size(tablet) {
+    padding: rem(105) rem(24) rem(0) rem(24);
+  }
+  @include for-size(desktop) {
+    padding: rem(126) rem(47) rem(5) rem(47);
+  }
+  @include for-size(desktop2k) {
+    padding: rem(126) rem(15) rem(5) rem(15);
+  }
+  &__title {
+    font-family: $secondary-font;
+    font-size: rem(26);
+    text-align: center;
+    margin-bottom: rem(13);
+    @include for-size(tablet) {
+      font-size: rem(42);
+    }
+  }
+  &__subtitle {
+    max-width: rem(160);
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: rem(30);
+    @include for-size(tablet) {
+      font-size: rem(18);
+      max-width: 100%;
+      margin-bottom: rem(35);
+    }
+    @include for-size(desktop) {
+      margin-bottom: rem(57);
+    }
+  }
+  &__list {
+    list-style: none;
+    @include for-size(tablet) {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    @include for-size(desktop) {
+      justify-content: space-between;
+    }
+  }
+  &__button {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: rem(8) 0;
+    border: 2px solid $primary-color;
+    border-radius: rem(4);
+    color: $primary-color;
+    font-size: rem(20);
+    font-weight: $bold;
+    background-color: $light-color;
+    &:hover,
+    &:focus {
+      background-color: #fee6d1;
+    }
+  }
+  &__loading {
+    color: $light-color;
+    background-color: $primary-color;
+    padding: rem(10) rem(50);
+    font-size: rem(30);
+    text-align: center;
+    width: 90%;
+    margin: rem(20) auto;
+  }
+  &__error {
+    text-align: center;
+    color: #ff0000;
+    background-color: $light-color;
+    width: 90%;
+    padding: rem(10) rem(15);
+    font-size: rem(20);
+  }
+}
+
+.user {
+  padding-bottom: rem(30);
+  @include for-size(tablet) {
+    width: rem(210);
+    margin-right: rem(45);
+    padding-bottom: rem(65);
+  }
+  @include for-size(desktop) {
+    display: flex;
+    flex-wrap: wrap;
+    width: rem(290);
+    margin-right: rem(0);
+    padding-bottom: rem(105);
+  }
+  @include for-size(desktop2k) {
+    padding-bottom: rem(87);
+    width: rem(360);
+  }
+  &:nth-child(3n + 3) {
+    @include for-size(tablet) {
+      margin-right: 0;
+    }
+  }
+  &:last-child {
+    padding-bottom: rem(75);
+    @include for-size(tablet) {
+      padding-bottom: rem(0);
+    }
+  }
+  &:nth-last-child(-n + 3) {
+    @include for-size(tablet) {
+      padding-bottom: rem(29);
+    }
+    @include for-size(desktop) {
+      padding-bottom: rem(20);
+    }
+    @include for-size(desktop2k) {
+      padding-bottom: rem(20);
+    }
+  }
+  &-info-wrapper {
+    @include for-size(desktop) {
+      padding-top: 20px;
+      max-width: rem(210);
+    }
+  }
+  &__photo {
+    margin: 0 auto rem(5) auto;
+    width: rem(70);
+    height: rem(70);
+    border-radius: 50%;
+    @include for-size(desktop) {
+      margin: 0 rem(10) rem(5) 0;
+    }
+  }
+  &__name {
+    font-family: $secondary-font;
+    font-size: rem(22);
+    text-align: center;
+    margin: 0 auto rem(5) auto;
+    text-overflow: ellipsis;
+    max-width: rem(320);
+    overflow: hidden;
+    @include for-size(desktop) {
+      text-align: left;
+      margin: 0 auto rem(9) auto;
+    }
+  }
+  &__position,
+  &__phone,
+  &__email {
+    display: block;
+    color: #4c4b4b;
+    font-family: $main-font;
+    font-size: rem(14);
+    text-align: center;
+    text-overflow: ellipsis;
+    max-width: rem(320);
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+    @include for-size(desktop) {
+      text-align: left;
+    }
+  }
+}

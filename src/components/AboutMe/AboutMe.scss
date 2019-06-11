@@ -1,0 +1,97 @@
+.about-me {
+  padding: rem(52) rem(15) rem(5) rem(15);
+  @include for-size(tablet) {
+    padding: rem(112) rem(24) 0 rem(24);
+  }
+  @include for-size(desktop) {
+    padding: rem(132) rem(47) 0 rem(47);
+  }
+  @include for-size(desktop2k) {
+    padding: rem(132) rem(15) 0 rem(15);
+  }
+  &__wrapper-img-content {
+    @include for-size(tablet) {
+      display: flex;
+      justify-content: space-between;
+    }
+    @include for-size(desktop2k) {
+      margin-left: 51px;
+      max-width: rem(1104);
+    }
+  }
+  &__wrapper-content {
+    @include for-size(tablet) {
+      max-width: 470px;
+    }
+    @include for-size(desktop) {
+      max-width: 613px;
+      padding-top: 14px;
+    }
+    @include for-size(desktop2k) {
+      max-width: 748px;
+    }
+  }
+  &__title {
+    font-family: $secondary-font;
+    font-size: rem(26);
+    line-height: rem(50);
+    text-align: center;
+    margin-bottom: rem(20);
+    @include for-size(tablet) {
+      font-size: rem(42);
+      text-align: center;
+      margin-bottom: rem(40);
+    }
+    @include for-size(desktop) {
+      margin-bottom: rem(27);
+    }
+  }
+  &__img {
+    margin: 0 auto rem(10) auto;
+  }
+  &__subtitle {
+    max-width: rem(198);
+    text-align: center;
+    font-family: $secondary-font;
+    margin: 0 auto rem(5) auto;
+    font-size: rem(22);
+    @include for-size(tablet) {
+      font-size: rem(26);
+      max-width: rem(340);
+      text-align: left;
+      margin: 0 0 rem(12) 0;
+    }
+    @include for-size(desktop) {
+      margin: 0 0 rem(7) 0;
+    }
+  }
+  &__text {
+    text-align: center;
+    color: #4c4b4b;
+    padding-bottom: rem(13);
+    @include for-size(tablet) {
+      text-align: left;
+      padding-bottom: rem(20);
+    }
+  }
+  &__button {
+    display: block;
+    padding: 0px rem(20);
+    font-size: rem(22);
+    color: $primary-color;
+    font-weight: $bold;
+    text-decoration: none;
+    border: none;
+    background-color: $light-color;
+    text-align: center;
+    max-width: rem(290);
+    @include for-size(tablet) {
+      padding: 0;
+      text-align: left;
+    }
+    &:hover,
+    &:focus {
+      color: #fd831e;
+    }
+  }
+}

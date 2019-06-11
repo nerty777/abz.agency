@@ -1,0 +1,46 @@
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  outline: none;
+  max-width: rem(290);
+  padding: rem(24) rem(24) rem(30) rem(24);
+  background-color: $light-color;
+  &__title {
+    font-family: $secondary-font;
+    font-size: rem(22);
+    margin-bottom: rem(10);
+  }
+  &__subtitle {
+    color: #393939;
+    margin-bottom: rem(22);
+  }
+  &__btn {
+    display: block;
+    margin-left: auto;
+    color: #ec6b0e;
+    font-size: rem(20);
+    font-weight: $bold;
+    text-transform: uppercase;
+    background-color: $light-color;
+    border: none;
+    &:hover,
+    &:focus {
+      color: #fd831e;
+    }
+  }
+}
+
+.ReactModal__Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: rgba(22, 12, 13, 0.3);
+  z-index: 99;
+}

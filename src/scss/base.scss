@@ -1,0 +1,62 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: $main-font;
+  font-size: rem(16);
+  font-weight: $regular;
+  line-height: 1.375;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button:hover,
+button:focus,
+a:hover,
+a:focus {
+  cursor: pointer;
+}
+
+a:hover,
+a:focus {
+  color: $primary-color;
+}
+
+ul {
+  list-style: none;
+}
+
+#root {
+  max-width: 2560px;
+  margin: 0 auto;
+
+}
+
+.container {
+  width: 320px;
+  margin: 0 auto;
+  @include for-size(tablet) {
+    width: 768px;
+  }
+  @include for-size(desktop) {
+    width: 1024px;
+  }
+  @include for-size(desktop2k) {
+    width: 1170px;
+  }
+}

@@ -1,0 +1,56 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  height: rem(64);
+  background-color: $light-color;
+  z-index: 2;
+  width: 100%;
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: rem(64);
+    padding: rem(0) rem(15);
+    width: rem(320);
+    margin: 0 auto;
+    @include for-size(tablet) {
+      width: rem(768);
+      padding: rem(0) rem(24);
+    }
+    @include for-size(desktop) {
+      padding: rem(0) rem(47);
+      width: rem(1024);
+    }
+    @include for-size(desktop2k) {
+      width: rem(1170);
+      padding: rem(0) rem(15);
+    }
+    @include for-size(desktop2k) {
+      padding: rem(0) rem(15);
+      width: rem(1170);
+    }
+  }
+  &__logo {
+    display: block;
+  }
+}
+
+.menu-button {
+  border: none;
+  width: rem(25);
+  height: rem(25);
+  background-color: $light-color;
+  @include for-size(desktop) {
+    display: none;
+  }
+  &__img {
+    width: rem(25);
+    height: rem(25);
+  }
+  @include for-size(tablet) {
+    top: rem(20);
+    right: rem(24);
+  }
+}

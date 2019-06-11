@@ -1,0 +1,228 @@
+.footer {
+  position: relative;
+  background-color: #2b3191;
+  @include for-size(tablet) {
+  }
+  @include for-size(desktop) {
+  }
+  &__container {
+    margin: 0 auto;
+    max-width: rem(320);
+    @include for-size(tablet) {
+      padding: rem(30) rem(24) rem(30) rem(24);
+      max-width: rem(768);
+    }
+    @include for-size(desktop) {
+      padding: rem(30) rem(47) rem(30) rem(47);
+      max-width: rem(1024);
+    }
+    @include for-size(desktop2k) {
+      padding: rem(30) rem(15) rem(30) rem(15);
+      max-width: rem(1170);
+    }
+  }
+  &__text {
+    color: $light-color;
+    font-size: rem(12);
+    text-align: center;
+    padding-bottom: rem(30);
+    @include for-size(tablet) {
+      padding-bottom: rem(0);
+    }
+  }
+  &::after {
+    position: absolute;
+    top: rem(225);
+    left: 0;
+    content: '';
+    width: 100%;
+    height: rem(1);
+    background-color: #5873b7;
+    @include for-size(tablet) {
+      top: rem(80);
+    }
+    @include for-size(desktop) {
+      top: rem(85);
+    }
+  }
+}
+
+.wrapper-logo-nav {
+  position: relative;
+  @include for-size(tablet) {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: rem(35);
+  }
+}
+
+.logo__img {
+  margin: 0 auto;
+  padding: rem(31) 0 rem(14) 0;
+  filter: invert(1);
+  @include for-size(tablet) {
+    padding: 0;
+  }
+}
+
+.nav {
+  &__list {
+    list-style: none;
+    @include for-size(tablet) {
+      width: rem(455);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  }
+  &__item {
+    margin-bottom: rem(5);
+    @include for-size(tablet) {
+      margin-bottom: rem(0);
+    }
+    &:last-child {
+      margin-bottom: rem(26);
+    }
+  }
+  &__link {
+    display: block;
+    text-align: center;
+    color: $light-color;
+    text-decoration: none;
+  }
+}
+
+.wrapper-links-pages {
+  @include for-size(tablet) {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: rem(30);
+  }
+  @include for-size(desktop) {
+    margin-bottom: rem(35);
+  }
+}
+
+.links {
+  padding-top: rem(25);
+  list-style: none;
+  @include for-size(tablet) {
+    padding-top: rem(0);
+  }
+  &__item {
+    position: relative;
+    text-align: center;
+    margin-bottom: rem(12);
+    @include for-size(tablet) {
+      text-align: left;
+      margin-bottom: rem(20);
+    }
+    @include for-size(desktop) {
+      margin-bottom: rem(14);
+      padding-left: 34px;
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
+    &--tel,
+    &--mail {
+      color: $light-color;
+      font-size: rem(18);
+      text-decoration: none;
+      @include for-size(desktop) {
+        font-size: rem(20);
+      }
+    }
+    &--mail::before {
+      display: none;
+      @include for-size(desktop) {
+        display: block;
+        position: absolute;
+        top: rem(5);
+        left: 0;
+        width: rem(24);
+        height: rem(18);
+        content: url(./assets/icons/mail.svg);
+      }
+    }
+    &--tel::before {
+      display: none;
+      @include for-size(desktop) {
+        display: block;
+        position: absolute;
+        top: rem(2);
+        left: rem(5);
+        width: rem(20);
+        height: rem(20);
+        content: url(./assets/icons/phone.svg);
+      }
+    }
+    &--tel2::before {
+      display: none;
+      @include for-size(desktop) {
+        display: block;
+        position: absolute;
+        top: rem(3);
+        left: rem(5);
+        width: rem(16);
+        height: rem(26);
+        content: url(./assets/icons/cellphone.svg);
+      }
+    }
+  }
+}
+
+.pages {
+  display: none;
+  @include for-size(tablet) {
+    width: rem(430);
+    display: flex;
+    justify-content: space-between;
+  }
+  @include for-size(desktop) {
+    width: rem(535);
+  }
+  @include for-size(desktop2k) {
+    width: rem(640);
+  }
+  &__item {
+    margin-bottom: rem(6);
+  }
+  &__link {
+    display: block;
+    color: $light-color;
+    text-decoration: none;
+    text-align: right;
+  }
+}
+
+.wrapper-social-copyright {
+  @include for-size(tablet) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  padding: rem(25) rem(55) rem(15) rem(55);
+  justify-content: space-between;
+  @include for-size(tablet) {
+    padding: 0;
+    order: 2;
+    width: rem(210);
+  }
+  &__item {
+    list-style: none;
+  }
+  &__img {
+    width: rem(26);
+    height: rem(26);
+    fill: $light-color;
+    &:hover {
+      fill: $primary-color;
+    }
+  }
+}
