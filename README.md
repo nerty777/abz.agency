@@ -13,20 +13,20 @@
 11. оптимизированы изображения, webp для растровых картинок фона<br>
 12. прописанны основные meta теги в index.html<br>
 13. дополнительные npm пакеты:<br>
-    <a href="https://www.npmjs.com/package/aos">aos --- small library to animate
-    elements on your page as you scroll</a><br>
-    <a href="https://www.npmjs.com/package/axios">axios --- promise based HTTP
-    client</a><br>
-    <a href="https://www.npmjs.com/package/react-select">react-select --- the
-    Select control for React</a><br>
-    <a href="https://www.npmjs.com/package/node-sass">node-sass --- it allows
+    <a href="https://www.npmjs.com/package/aos">aos</a> small library to animate
+    elements on your page as you scroll<br>
+    <a href="https://www.npmjs.com/package/axios">axios</a> promise based HTTP
+    client<br>
+    <a href="https://www.npmjs.com/package/react-select">react-select</a> the
+    Select control for React<br>
+    <a href="https://www.npmjs.com/package/node-sass">node-sass</a> it allows
     you to natively compile .scss files to css at incredible speed and
-    automatically via a connect middleware</a><br>
-    <a href="https://www.npmjs.com/package/redux-thunk">redux-thunk --- thunk
-    middleware for Redux</a><br>
-    <a href="https://www.npmjs.com/package/react-modal">react-modal ---
-    accessible modal dialog component for React.JS</a><br>
-    <a href="https://www.npmjs.com/package/image-dimensions">image-dimensions
-    --- get the dimensions of an image blob.</a><br>
-    <a href="https://www.npmjs.com/package/gh-pages">gh-pages --- publish files
-    to a gh-pages branch on GitHub</a><br>
+    automatically via a connect middleware<br>
+    <a href="https://www.npmjs.com/package/redux-thunk">redux-thunk</a> thunk
+    middleware for Redux<br>
+    <a href="https://www.npmjs.com/package/react-modal">react-modal</a>
+    accessible modal dialog component for React.JS<br>
+    <a href="https://www.npmjs.com/package/image-dimensions">image-dimensions</a>
+    get the dimensions of an image blob.<br>
+    <a href="https://www.npmjs.com/package/gh-pages">gh-pages</a> publish files
+    to a gh-pages branch on GitHub<br>
