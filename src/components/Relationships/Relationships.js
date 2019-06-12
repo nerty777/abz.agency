@@ -3,20 +3,17 @@ import React from 'react';
 import Sprite from '../../assets/icons/sprite.svg';
 
 const Relationships = () => (
-  <section id="relationships" className="relationships container">
-    <h2
-      className="relationships__title"
-      data-aos="fade-up"
-      data-aos-duration="800"
-    >
+  <section
+    id="relationships"
+    className="relationships container"
+    data-aos="fade-up"
+    data-aos-duration="800"
+  >
+    <h2 className="relationships__title">
       About my relationships with web-development
     </h2>
     <ul className="relationships__list">
-      <li
-        className="relationships__item"
-        data-aos="fade-up"
-        data-aos-duration="800"
-      >
+      <li className="relationships__item">
         <svg className="relationships__img">
           <use xlinkHref={`${Sprite}#icon-html`} />
         </svg>
@@ -30,11 +27,7 @@ const Relationships = () => (
           </p>
         </div>
       </li>
-      <li
-        className="relationships__item"
-        data-aos="fade-up"
-        data-aos-duration="800"
-      >
+      <li className="relationships__item">
         <svg className="relationships__img">
           <use xlinkHref={`${Sprite}#icon-css`} />
         </svg>
@@ -47,11 +40,7 @@ const Relationships = () => (
           </p>
         </div>
       </li>
-      <li
-        className="relationships__item"
-        data-aos="fade-up"
-        data-aos-duration="800"
-      >
+      <li className="relationships__item">
         <svg className="relationships__img">
           <use xlinkHref={`${Sprite}#icon-javascript`} />
         </svg>
