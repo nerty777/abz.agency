@@ -7,7 +7,7 @@ const Footer = () => (
   <footer className="footer">
     <div className="footer__container">
       <div className="wrapper-logo-nav">
-        <a className="logo__link" href="/#">
+        <a className="logo__link" href="/abz.agency/#">
           <img
             className="logo__img"
             src={Logo}
@@ -75,22 +75,22 @@ const Footer = () => (
           <li className="pages__column">
             <ul className="pages__list">
               <li className="pages__item">
-                <a className="pages__link" href="/#">
+                <a className="pages__link" href="/abz.agency/#">
                   News
                 </a>
               </li>
               <li className="pages__item">
-                <a className="pages__link" href="/#">
+                <a className="pages__link" href="/abz.agency/#">
                   Blog
                 </a>
               </li>
               <li className="pages__item">
-                <a className="pages__link" href="/#">
+                <a className="pages__link" href="/abz.agency/#">
                   Partners
                 </a>
               </li>
               <li className="pages__item">
-                <a className="pages__link" href="/#">
+                <a className="pages__link" href="/abz.agency/#">
                   Shop
                 </a>
               </li>
@@ -99,22 +99,22 @@ const Footer = () => (
           <li className="pages__column">
             <ul className="pages__list">
               <li className="pages__item">
-                <a className="pages__link" href="/#">
+                <a className="pages__link" href="/abz.agency/#">
                   Overview
                 </a>
               </li>
               <li className="pages__item">
-                <a className="pages__link" href="/#">
+                <a className="pages__link" href="/abz.agency/#">
                   Design
                 </a>
               </li>
               <li className="pages__item">
-                <a className="pages__link" href="/#">
+                <a className="pages__link" href="/abz.agency/#">
                   Code
                 </a>
               </li>
               <li className="pages__item">
-                <a className="pages__link" href="/#">
+                <a className="pages__link" href="/abz.agency/#">
                   Collaborate
                 </a>
               </li>
@@ -123,22 +123,22 @@ const Footer = () => (
           <li className="pages__column">
             <ul className="pages__list">
               <li className="pages__item">
-                <a className="pages__link" href="/#">
+                <a className="pages__link" href="/abz.agency/#">
                   Tutorials
                 </a>
               </li>
               <li className="pages__item">
-                <a className="pages__link" href="/#">
+                <a className="pages__link" href="/abz.agency/#">
                   Resources
                 </a>
               </li>
               <li className="pages__item">
-                <a className="pages__link" href="/#">
+                <a className="pages__link" href="/abz.agency/#">
                   Guides
                 </a>
               </li>
               <li className="pages__item">
-                <a className="pages__link" href="/#">
+                <a className="pages__link" href="/abz.agency/#">
                   Examples
                 </a>
               </li>
@@ -147,22 +147,22 @@ const Footer = () => (
           <li className="pages__column">
             <ul className="pages__list">
               <li className="pages__item">
-                <a className="pages__link" href="/#">
+                <a className="pages__link" href="/abz.agency/#">
                   FAQ
                 </a>
               </li>
               <li className="pages__item">
-                <a className="pages__link" href="/#">
+                <a className="pages__link" href="/abz.agency/#">
                   Terms
                 </a>
               </li>
               <li className="pages__item">
-                <a className="pages__link" href="/#">
+                <a className="pages__link" href="/abz.agency/#">
                   Conditions
                 </a>
               </li>
               <li className="pages__item">
-                <a className="pages__link" href="/#">
+                <a className="pages__link" href="/abz.agency/#">
                   Help
                 </a>
               </li>
@@ -173,35 +173,35 @@ const Footer = () => (
       <div className="wrapper-social-copyright">
         <ul className="social">
           <li className="social__item">
-            <a href="/#" title="facebook">
+            <a href="/abz.agency/#" title="facebook">
               <svg className="social__img">
                 <use xlinkHref={`${Sprite}#icon-facebook`} />
               </svg>
             </a>
           </li>
           <li className="social__item">
-            <a href="/#" title="linkedin">
+            <a href="/abz.agency/#" title="linkedin">
               <svg className="social__img">
                 <use xlinkHref={`${Sprite}#icon-linkedin`} />
               </svg>
             </a>
           </li>
           <li className="social__item">
-            <a href="/#" title="instagram">
+            <a href="/abz.agency/#" title="instagram">
               <svg className="social__img">
                 <use xlinkHref={`${Sprite}#icon-instagram`} />
               </svg>
             </a>
           </li>
           <li className="social__item">
-            <a href="/#" title="twitter">
+            <a href="/abz.agency/#" title="twitter">
               <svg className="social__img">
                 <use xlinkHref={`${Sprite}#icon-twitter`} />
               </svg>
             </a>
           </li>
           <li className="social__item">
-            <a href="/#" title="pinterest">
+            <a href="/abz.agency/#" title="pinterest">
               <svg className="social__img">
                 <use xlinkHref={`${Sprite}#icon-pinterest`} />
               </svg>

@@ -39,7 +39,7 @@ const MobileMenu = ({ userPhoto, userName, userEmail }) => (
           </a>
         </li>
         <li className="mobile-nav__item">
-          <a className="mobile-nav__link" href="/#">
+          <a className="mobile-nav__link" href="/abz.agency/#">
             Sign Out
           </a>
         </li>

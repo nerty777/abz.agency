@@ -16,7 +16,7 @@ const Header = ({
   <>
     <header className="header">
       <div className="header__container">
-        <a className="header__link" href="/#">
+        <a className="header__link" href="/abz.agency/#">
           <img
             className="header__logo"
             src={Logo}
