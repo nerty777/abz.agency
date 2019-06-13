@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/abz.agency/static/css/main.c8b09bdc.chunk.css",
-    "main.js": "/abz.agency/static/js/main.4e6577b9.chunk.js",
-    "main.js.map": "/abz.agency/static/js/main.4e6577b9.chunk.js.map",
+    "main.css": "/abz.agency/static/css/main.a36c40cf.chunk.css",
+    "main.js": "/abz.agency/static/js/main.1441a3b5.chunk.js",
+    "main.js.map": "/abz.agency/static/js/main.1441a3b5.chunk.js.map",
     "runtime~main.js": "/abz.agency/static/js/runtime~main.99815877.js",
     "runtime~main.js.map": "/abz.agency/static/js/runtime~main.99815877.js.map",
     "static/css/2.7abef457.chunk.css": "/abz.agency/static/css/2.7abef457.chunk.css",
     "static/js/2.bc4ea5b3.chunk.js": "/abz.agency/static/js/2.bc4ea5b3.chunk.js",
     "static/js/2.bc4ea5b3.chunk.js.map": "/abz.agency/static/js/2.bc4ea5b3.chunk.js.map",
     "index.html": "/abz.agency/index.html",
-    "precache-manifest.70454f99ecb3b684a7f6d4e810f7f658.js": "/abz.agency/precache-manifest.70454f99ecb3b684a7f6d4e810f7f658.js",
+    "precache-manifest.c00180836497111d6c46d477dc8e21c8.js": "/abz.agency/precache-manifest.c00180836497111d6c46d477dc8e21c8.js",
     "service-worker.js": "/abz.agency/service-worker.js",
     "static/css/2.7abef457.chunk.css.map": "/abz.agency/static/css/2.7abef457.chunk.css.map",
-    "static/css/main.c8b09bdc.chunk.css.map": "/abz.agency/static/css/main.c8b09bdc.chunk.css.map",
-    "static/media/index.scss": "/abz.agency/static/media/phone.5efe6c43.svg",
+    "static/css/main.a36c40cf.chunk.css.map": "/abz.agency/static/css/main.a36c40cf.chunk.css.map",
+    "static/media/index.scss": "/abz.agency/static/media/user.a2674e95.svg",
     "static/media/logo.svg": "/abz.agency/static/media/logo.6fa79d01.svg",
     "static/media/sprite.svg": "/abz.agency/static/media/sprite.4ec0a359.svg"
   }

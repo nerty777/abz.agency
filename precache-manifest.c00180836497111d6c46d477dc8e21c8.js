@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "61e294438b8a8f2083f3a8c0f7ed2b64",
+    "revision": "545298f4e9cfdef1f3206940a6eb2e70",
     "url": "/abz.agency/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/abz.agency/static/css/2.7abef457.chunk.css"
   },
   {
-    "revision": "9b47f4bea7b1a7228fbe",
-    "url": "/abz.agency/static/css/main.c8b09bdc.chunk.css"
+    "revision": "99aff939e79214b3e840",
+    "url": "/abz.agency/static/css/main.a36c40cf.chunk.css"
   },
   {
     "revision": "ff56020cbf0f6c93fde7",
     "url": "/abz.agency/static/js/2.bc4ea5b3.chunk.js"
   },
   {
-    "revision": "9b47f4bea7b1a7228fbe",
-    "url": "/abz.agency/static/js/main.4e6577b9.chunk.js"
+    "revision": "99aff939e79214b3e840",
+    "url": "/abz.agency/static/js/main.1441a3b5.chunk.js"
   },
   {
     "revision": "d0894254b9128a9cde01",
@@ -32,12 +32,44 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/abz.agency/static/media/bg-1.56bc6f35.jpg"
   },
   {
+    "revision": "3e6cc81ae5d9cd1c3f0dda94440db00b",
+    "url": "/abz.agency/static/media/bg-1_mobile.3e6cc81a.webp"
+  },
+  {
+    "revision": "f845892d9ea28ace0dd17f0b9adda3b3",
+    "url": "/abz.agency/static/media/bg-1_mobile.f845892d.jpg"
+  },
+  {
+    "revision": "65c0b632c6fc582ac8212736875d7400",
+    "url": "/abz.agency/static/media/bg-1_tablet.65c0b632.jpg"
+  },
+  {
+    "revision": "862c7e69bce5e7d8df4b3659fb09169a",
+    "url": "/abz.agency/static/media/bg-1_tablet.862c7e69.webp"
+  },
+  {
     "revision": "3795d46520e2864edec591d756cdfc56",
     "url": "/abz.agency/static/media/bg-2.3795d465.jpg"
   },
   {
     "revision": "c9d7561542dba333e2be61b2ba7fc4c5",
     "url": "/abz.agency/static/media/bg-2.c9d75615.webp"
+  },
+  {
+    "revision": "217e241f50ac2f08ae7c9e428d21848a",
+    "url": "/abz.agency/static/media/bg-2_mobile.217e241f.webp"
+  },
+  {
+    "revision": "4ef7310618b978b1136fdc2f71142187",
+    "url": "/abz.agency/static/media/bg-2_mobile.4ef73106.jpg"
+  },
+  {
+    "revision": "220a8f618ff06d38fb41491df4491c0c",
+    "url": "/abz.agency/static/media/bg-2_tablet.220a8f61.webp"
+  },
+  {
+    "revision": "f66607b95a5fb2adf362bfbfb4852018",
+    "url": "/abz.agency/static/media/bg-2_tablet.f66607b9.jpg"
   },
   {
     "revision": "be0576742aa6038ab24d77e49dfcda50",
@@ -58,5 +90,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4ec0a35952a2b133776c7c5cb523d5bd",
     "url": "/abz.agency/static/media/sprite.4ec0a359.svg"
+  },
+  {
+    "revision": "a2674e95d209f32841af572bbcf0cb81",
+    "url": "/abz.agency/static/media/user.a2674e95.svg"
   }
 ]);
