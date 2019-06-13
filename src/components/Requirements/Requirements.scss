@@ -1,8 +1,20 @@
 .no-webp .requirements {
-  background-image: url('./assets/imgs/bg-2.jpg');
+  background-image: url('./assets/imgs/bg-2_mobile.jpg');
+  @include for-size(tablet) {
+    background-image: url('./assets/imgs/bg-2_tablet.jpg');
+  }
+  @include for-size(desktop2k) {
+    background-image: url('./assets/imgs/bg-2.jpg');
+  }
 }
 .webp .requirements {
-  background-image: url('./assets/imgs/bg-2.webp');
+  background-image: url('./assets/imgs/bg-2_mobile.webp');
+  @include for-size(tablet) {
+    background-image: url('./assets/imgs/bg-2_tablet.webp');
+  }
+  @include for-size(desktop2k) {
+    background-image: url('./assets/imgs/bg-2.webp');
+  }
 }
 
 .requirements {
