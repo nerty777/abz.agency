@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/abz.agency/static/css/main.a36c40cf.chunk.css",
-    "main.js": "/abz.agency/static/js/main.1441a3b5.chunk.js",
-    "main.js.map": "/abz.agency/static/js/main.1441a3b5.chunk.js.map",
+    "main.css": "/abz.agency/static/css/main.31280106.chunk.css",
+    "main.js": "/abz.agency/static/js/main.92dbfeef.chunk.js",
+    "main.js.map": "/abz.agency/static/js/main.92dbfeef.chunk.js.map",
     "runtime~main.js": "/abz.agency/static/js/runtime~main.99815877.js",
     "runtime~main.js.map": "/abz.agency/static/js/runtime~main.99815877.js.map",
-    "static/css/2.7abef457.chunk.css": "/abz.agency/static/css/2.7abef457.chunk.css",
-    "static/js/2.bc4ea5b3.chunk.js": "/abz.agency/static/js/2.bc4ea5b3.chunk.js",
-    "static/js/2.bc4ea5b3.chunk.js.map": "/abz.agency/static/js/2.bc4ea5b3.chunk.js.map",
+    "static/css/2.4707e12a.chunk.css": "/abz.agency/static/css/2.4707e12a.chunk.css",
+    "static/js/2.f1141d2a.chunk.js": "/abz.agency/static/js/2.f1141d2a.chunk.js",
+    "static/js/2.f1141d2a.chunk.js.map": "/abz.agency/static/js/2.f1141d2a.chunk.js.map",
     "index.html": "/abz.agency/index.html",
-    "precache-manifest.c00180836497111d6c46d477dc8e21c8.js": "/abz.agency/precache-manifest.c00180836497111d6c46d477dc8e21c8.js",
+    "precache-manifest.17aa36e59c0574a82194930739d7d713.js": "/abz.agency/precache-manifest.17aa36e59c0574a82194930739d7d713.js",
     "service-worker.js": "/abz.agency/service-worker.js",
-    "static/css/2.7abef457.chunk.css.map": "/abz.agency/static/css/2.7abef457.chunk.css.map",
-    "static/css/main.a36c40cf.chunk.css.map": "/abz.agency/static/css/main.a36c40cf.chunk.css.map",
-    "static/media/index.scss": "/abz.agency/static/media/user.a2674e95.svg",
+    "static/css/2.4707e12a.chunk.css.map": "/abz.agency/static/css/2.4707e12a.chunk.css.map",
+    "static/css/main.31280106.chunk.css.map": "/abz.agency/static/css/main.31280106.chunk.css.map",
+    "static/media/index.scss": "/abz.agency/static/media/phone.5efe6c43.svg",
     "static/media/logo.svg": "/abz.agency/static/media/logo.6fa79d01.svg",
-    "static/media/sprite.svg": "/abz.agency/static/media/sprite.4ec0a359.svg"
+    "static/media/sprite.svg": "/abz.agency/static/media/sprite.4ec0a359.svg",
+    "static/media/user.svg": "/abz.agency/static/media/user.a2674e95.svg"
   }
 }
