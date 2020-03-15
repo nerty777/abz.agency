@@ -1,19 +1,19 @@
 .no-webp .banner {
-  background-image: url('./assets/imgs/bg-1_mobile.jpg');
+  background-image: url('./assets/images/bg-1_mobile.jpg');
   @include for-size(tablet) {
-    background-image: url('./assets/imgs/bg-1_tablet.jpg');
+    background-image: url('./assets/images/bg-1_tablet.jpg');
   }
   @include for-size(desktop2k) {
-    background-image: url('./assets/imgs/bg-1.jpg');
+    background-image: url('./assets/images/bg-1.jpg');
   }
 }
 .webp .banner {
-  background-image: url('./assets/imgs/bg-1_mobile.webp');
+  background-image: url('./assets/images/bg-1_mobile.webp');
   @include for-size(tablet) {
-  background-image: url('./assets/imgs/bg-1_tablet.webp');
+  background-image: url('./assets/images/bg-1_tablet.webp');
   }
   @include for-size(desktop2k) {
-    background-image: url('./assets/imgs/bg-1.webp');
+    background-image: url('./assets/images/bg-1.webp');
     }
 }
 

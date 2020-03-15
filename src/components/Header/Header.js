@@ -43,7 +43,6 @@ const Header = ({
         {isMenuOpen && (
           <MobileMenu
             onCloseMenu={onToggleMenu}
-            isMenuOpen={isMenuOpen}
             userName={userName}
             userEmail={userEmail}
             userPhoto={userPhoto}

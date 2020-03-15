@@ -318,7 +318,4 @@ const mapDispatchToProps = {
   fetchUsers: usersOperations.fetchUsers,
 };
 
-export default connect(
-  null,
-  mapDispatchToProps,
-)(SignUpContainer);
+export default connect(null, mapDispatchToProps)(SignUpContainer);

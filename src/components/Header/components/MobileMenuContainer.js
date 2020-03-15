@@ -6,24 +6,27 @@ export default class MobileMenuContainer extends Component {
   backdropRef = createRef();
 
   componentDidMount() {
+    document.body.style.overflow = 'hidden';
+    document.body.style.position = 'fixed';
     window.addEventListener('click', this.handleWindowClick);
     window.addEventListener('keydown', this.handleEscClick);
   }
 
   componentWillUnmount() {
+    document.body.style.overflow = 'auto';
+    document.body.style.position = 'relative';
     window.removeEventListener('click', this.handleWindowClick);
     window.removeEventListener('keydown', this.handleEscClick);
   }
 
-  handleWindowClick = e => {
-    const { onCloseMenu, isMenuOpen } = this.props;
-    if (e.target.className === 'mobile-nav__link') {
+  handleWindowClick = ({ target }) => {
+    const { onCloseMenu } = this.props;
+    if (
+      this.backdropRef.current === target ||
+      target.className === 'mobile-nav__link'
+    ) {
       onCloseMenu();
     }
-    if (isMenuOpen && this.backdropRef.current !== e.target) {
-      return;
-    }
-    onCloseMenu();
   };
 
   handleEscClick = e => {

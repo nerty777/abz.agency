@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Loading from './components/Loading';
+import defaultAvatar from '../../assets/icons/user.svg';
 
 const Users = ({ usersList, nextUrl, handleNextUsersList, loading, error }) => (
   <section id="users" className="users container">
@@ -17,7 +18,14 @@ const Users = ({ usersList, nextUrl, handleNextUsersList, loading, error }) => (
             data-aos="fade-up"
             data-aos-duration="800"
           >
-            <img className="user__photo" src={user.photo} alt={user.name} />
+            <img
+              className="user__photo"
+              src={user.photo}
+              alt={user.name}
+              onError={e => {
+                e.target.src = defaultAvatar;
+              }}
+            />
             <div className="user-info-wrapper">
               <h3 className="user__name">{user.name}</h3>
               <p className="user__position">{user.position}</p>

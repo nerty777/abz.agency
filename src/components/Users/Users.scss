@@ -135,17 +135,6 @@
     @include for-size(desktop) {
       margin: 0 rem(10) rem(5) 0;
     }
-    &:after {
-      position: absolute;
-      background-color: #fff;
-      background-image: url(./assets/icons/user.svg);
-      top: 0;
-      left: 0;
-      content: '';
-      width: rem(70);
-      height: rem(70);
-      border-radius: 50%;
-    }
   }
   &__name {
     font-family: $secondary-font;

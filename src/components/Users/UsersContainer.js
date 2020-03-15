@@ -48,7 +48,4 @@ const mapDispatchToProps = {
   fetchNextUsers: usersOperations.fetchNextUsers,
 };
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps,
-)(UsersContainer);
+export default connect(mapStateToProps, mapDispatchToProps)(UsersContainer);
