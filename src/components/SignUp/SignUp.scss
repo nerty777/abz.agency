@@ -38,14 +38,6 @@
   }
 }
 
-input {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  line-height: 100%;
-  font-size: 15px;
-}
-
 input,
 select {
   margin-bottom: rem(35);
@@ -69,6 +61,7 @@ select {
     border-radius: rem(4);
     border: rem(1) solid #b7b7b7;
     width: 100%;
+    font-size: rem(15);
     padding: rem(18) rem(17);
     outline: none;
     &:focus {
@@ -102,6 +95,7 @@ select {
     width: 100%;
     padding: rem(18) rem(17);
     outline: none;
+    font-size: rem(15);
     &:focus {
       border: rem(2) solid #b7b7b7;
     }
@@ -134,6 +128,7 @@ select {
     padding: rem(18) rem(17);
     margin-bottom: 0;
     outline: none;
+    font-size: rem(15);
     &:focus {
       border: rem(2) solid #b7b7b7;
     }

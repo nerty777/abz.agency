@@ -46,6 +46,13 @@ ul {
   list-style: none;
 }
 
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  line-height: 100%;
+}
+
 #root {
   max-width: 2560px;
   margin: 0 auto;
