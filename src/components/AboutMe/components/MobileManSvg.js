@@ -1,7 +1,12 @@
 import React from 'react';
 
 const MobileManSvg = () => (
-  <div className="mobile-man-svg" data-aos="fade-right" data-aos-duration="800">
+  <div
+    className="mobile-man-svg"
+    data-aos="fade-right"
+    data-aos-duration="800"
+    data-aos-once
+  >
     <svg
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"

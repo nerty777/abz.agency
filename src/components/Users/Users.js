@@ -17,6 +17,7 @@ const Users = ({ usersList, nextUrl, handleNextUsersList, loading, error }) => (
             key={user.id}
             data-aos="fade-up"
             data-aos-duration="800"
+            data-aos-once
           >
             <img
               className="user__photo"

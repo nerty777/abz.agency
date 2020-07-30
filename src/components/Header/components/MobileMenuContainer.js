@@ -45,6 +45,7 @@ export default class MobileMenuContainer extends Component {
         ref={this.backdropRef}
         data-aos="fade-right"
         data-aos-duration="600"
+        data-aos-once
       >
         <MobileMenu
           userPhoto={userPhoto}

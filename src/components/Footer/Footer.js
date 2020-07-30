@@ -17,7 +17,12 @@ const Footer = () => (
             title="abz.agency"
           />
         </a>
-        <nav className="nav" data-aos="fade-up" data-aos-duration="800">
+        <nav
+          className="nav"
+          data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-once
+        >
           <ul className="nav__list">
             <li className="nav__item">
               <a className="nav__link" href="#about-me">
@@ -48,7 +53,12 @@ const Footer = () => (
         </nav>
       </div>
       <div className="wrapper-links-pages">
-        <ul className="links" data-aos="fade-up" data-aos-duration="800">
+        <ul
+          className="links"
+          data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-once
+        >
           <li className="links__item">
             <a
               className="links__item--mail"
@@ -71,7 +81,12 @@ const Footer = () => (
             </a>
           </li>
         </ul>
-        <ul className="pages" data-aos="fade-right" data-aos-duration="800">
+        <ul
+          className="pages"
+          data-aos="fade-right"
+          data-aos-duration="800"
+          data-aos-once
+        >
           <li className="pages__column">
             <ul className="pages__list">
               <li className="pages__item">

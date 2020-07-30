@@ -10,6 +10,7 @@ const Requirements = () => (
         className="requirements__title"
         data-aos="fade-up"
         data-aos-duration="800"
+        data-aos-once
       >
         General requirements for the test task
       </h2>
@@ -21,6 +22,7 @@ const Requirements = () => (
             className="requirements__text"
             data-aos="fade-up"
             data-aos-duration="800"
+            data-aos-once
           >
             Users want to find answers to their questions quickly and data shows
             that people really care about how quickly their pages load. The
@@ -32,6 +34,7 @@ const Requirements = () => (
             className="requirements__text"
             data-aos="fade-up"
             data-aos-duration="800"
+            data-aos-once
           >
             If you&apos;re a developer working on a site, now is a good time to
             evaluate your performance using our speed tools. Think about how
@@ -42,6 +45,7 @@ const Requirements = () => (
             className="requirements__text"
             data-aos="fade-up"
             data-aos-duration="800"
+            data-aos-once
           >
             Are you shipping too much JavaScript? Too many images? Images and
             JavaScript are the most significant contributors to the page weight

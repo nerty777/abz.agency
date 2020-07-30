@@ -8,6 +8,7 @@ const Relationships = () => (
     className="relationships container"
     data-aos="fade-up"
     data-aos-duration="800"
+    data-aos-once
   >
     <h2 className="relationships__title">
       About my relationships with web-development

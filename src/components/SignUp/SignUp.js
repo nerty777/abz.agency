@@ -36,6 +36,7 @@ const SignUp = ({
       onSubmit={handleSubmit}
       data-aos="fade-up"
       data-aos-duration="800"
+      data-aos-once
     >
       <label className="form__label--name" htmlFor="form__name">
         <input

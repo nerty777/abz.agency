@@ -13,6 +13,7 @@ const AboutMe = () => (
           className="about-me__text"
           data-aos="fade-right"
           data-aos-duration="800"
+          data-aos-once
         >
           When real users have a slow experience on mobile, they&apos;re much
           less likely to find what they are looking for or purchase from you in
@@ -24,6 +25,7 @@ const AboutMe = () => (
           className="about-me__text"
           data-aos="fade-right"
           data-aos-duration="800"
+          data-aos-once
         >
           Last week, Google Search and Ads teams announced two new speed
           initiatives to help improve user-experience on the web.
