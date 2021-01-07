@@ -34,7 +34,7 @@
     position: absolute;
     top: rem(225);
     left: 0;
-    content: '';
+    content: "";
     width: 100%;
     height: rem(1);
     background-color: #5873b7;
@@ -142,7 +142,7 @@
         left: 0;
         width: rem(24);
         height: rem(18);
-        content: url(./assets/icons/mail.svg);
+        content: url(../../assets/icons/mail.svg);
       }
     }
     &--tel::before {
@@ -154,7 +154,7 @@
         left: rem(5);
         width: rem(20);
         height: rem(20);
-        content: url(./assets/icons/phone.svg);
+        content: url(../../assets/icons/phone.svg);
       }
     }
     &--tel2::before {
@@ -166,7 +166,7 @@
         left: rem(5);
         width: rem(16);
         height: rem(26);
-        content: url(./assets/icons/cellphone.svg);
+        content: url(../../assets/icons/cellphone.svg);
       }
     }
   }
