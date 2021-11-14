@@ -12,7 +12,7 @@
 10. единицы измерения rem и breakpoints через mixin scss<br>
 11. оптимизированы изображения, webp для растровых картинок фона<br>
 12. прописаны основные meta теги в index.html<br>
-13. дополнительные npm пакеты:<br>
+13. использовано дополнительные npm пакеты:<br>
     <a href="https://www.npmjs.com/package/aos">aos</a> small library to animate
     elements on your page as you scroll<br>
     <a href="https://www.npmjs.com/package/axios">axios</a> promise based HTTP
